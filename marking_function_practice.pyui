@@ -1,0 +1,89 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{73, 21}, {309, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "instruction_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "D7BC80F0-A2DA-457B-9FAA-D09764BC8A9F",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter the mark please",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{130, 74}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "enter a valid mark",
+          "name" : "mark_textfield",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "D05F4F0C-FA1B-4AA4-8120-C6602BF5A893",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{200, 144}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "confirm_button_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Confirm!",
+          "uuid" : "A46E466F-B8F8-4120-873C-4BADCF67D6F6",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{164, 228}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "percentage_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "F8F5B116-3AA3-4BB2-8131-3488C855A657",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
